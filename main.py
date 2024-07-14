@@ -15,7 +15,7 @@ def computer_card_picker():
 
 answer = input("Do you want to play a game of Blackjack? Type 'y or 'n': ").lower()
 if answer == 'y':
-    # print(logo)
+    print(logo)
     may_cards = user_card_picker()
     maa_cards = list(may_cards)
     computa_cards = computer_card_picker()
